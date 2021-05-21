@@ -12,7 +12,7 @@ ship "Brawler"
 	sprite "ship/brawler i"
 	thumbnail "thumb/brawler i thumb"
 	attributes
-		category "Light Warship"
+		category "Medium Warship"
 		"cost" 3300000
 		"shields" 2700
 		"hull" 4300
@@ -442,18 +442,18 @@ ship "Mauler"
 	sprite "ship/mauler"
 	thumbnail "thumb/mauler thumb"
 	attributes
-		category "Interceptor"
+		category "Light Warship"
 		"cost" 1050000
 		"shields" 2500
-		"hull" 3700
-		"required crew" 3
+		"hull" 3000
+		"required crew" 6
 		"bunks" 12
-		"mass" 250
-		"drag" 5
+		"mass" 125
+		"drag" 5.5
 		"heat dissipation" .6
 		"fuel capacity" 400
 		"cargo space" 25
-		"outfit space" 350
+		"outfit space" 300
 		"weapon capacity" 140
 		"engine capacity" 80
 		weapon
@@ -462,17 +462,19 @@ ship "Mauler"
 			"hull damage" 300
 			"hit force" 900
 	outfits
+		"Anti-Missile Turret" 2
+		"Blaster Turret" 2
+		"Cooling Ducts"
 		"D23-QP Shield Generator"
-		"Energy Blaster" 2
 		"Greyhound Plasma Thruster"
-		"Heavy Anti-Missile Turret" 2
 		Hyperdrive
 		"Impala Plasma Steering"
 		"LP072a Battery Pack"
-		"NT-200 Nucleovoltaic"
-		"Quad Blaster Turret" 2
+		"Meteor Missile" 90
+		"Meteor Missile Box" 2
+		"Meteor Missile Launcher" 2
+		"S3 Thermionic"
 		"Small Radar Jammer"
-		"Water Coolant System"
 
 	turret -21 -10
 	turret 21 -10
@@ -496,5 +498,5 @@ ship "Mauler"
 	explode "medium explosion" 20
 	explode "large explosion" 5
 	"final explode" "final explosion medium"
-	description "Created at the behest of one of the board members of Southbound Shipyards, whose only motivation was the phrase 'hehe funny small man,' the Hauler Zero turned out to be quite the capable Interceptor when not held back by a heavy cargo pod. Shown to be able to hold its own against groups of other Interceptors with its array of turrets, engineers at Southbound came to call it the Mauler, which soon caught on."
+	description "Created at the behest of one of the board members of Southbound Shipyards, whose only motivation was the phrase 'hehe funny small man,' the Hauler Zero turned out to be quite the capable warship when not bogged down by a heavy cargo pod. Shown to be able to hold its own against groups of Interceptors with its array of turrets, engineers at Southbound came to call it the Mauler, which soon caught on."
 	description "While lacking the increased outfit and engine space and the reverse thrust capabilities of its new Brawler and Crawler brethren, the Mauler remains a force to be reckoned with."
